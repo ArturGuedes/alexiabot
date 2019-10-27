@@ -5,9 +5,12 @@ const app = alexia.createApp();
 app.onStart(() => {
     return {
         text: `<speak>
-                    Bem vindo ao racatom uni la salle
+                    <p>Bem vindo ao cantando com alexa!</p>
                     <audio src="soundbank://soundlibrary/cartoon/amzn_sfx_boing_long_1x_01"/>
-                    Diga algo
+                    <p>Está preparado?<break time="3s"/></p>
+                    <p>Vamos lá!</p>
+                    <p>Fale uma música</p>
+                    <emphasis level="strong">Aquela que combinamos, tá?</emphasis> 
                 </speak>`,
         card: {
             title: 'Bem vindo',
