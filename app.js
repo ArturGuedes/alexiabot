@@ -21,6 +21,8 @@ app.onStart(() => {
     };
 });
 
+app.builtInIntent('unihack', 'Fala oi pro pessoal', () => {return{text:'Oi pessoal, desculpe minha falta de educação. Não sabia que tinha mais gente aqui',end:false}});
+
 app.intent('HelloIntent', 'Hello', () => {
     return {text:'Entendi nada ra ra ra',end:false};
 });
