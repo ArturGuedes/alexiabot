@@ -10,7 +10,7 @@ app.onStart(() => {
                     <p>Está preparado?<break time="1s"/></p>
                     <p>Vamos lá!</p>
                     <p>Fale uma música</p>
-                    < amazon: effect name = "whispered" > Aquela que combinamos, tá ? < /amazon:effect><break time="1s"/ >
+                    <amazon:effect name="whispered">Aquela que combinamos, tá?</amazon:effect><break time="1s"/>
                 </speak>`,
         card: {
             title: 'Bem vindo',
