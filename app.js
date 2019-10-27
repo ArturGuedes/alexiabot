@@ -34,7 +34,7 @@ app.intent('HelloIntent', 'Hello', () => {
 
 app.intent('vai','vai', ()=>{
     return {
-        text: "até breve, fui",
+        text: "Tchau galera, beijos",
         end:true
     };
 });
