@@ -7,10 +7,10 @@ app.onStart(() => {
         text: `<speak>
                     <p>Bem vindo ao cantando com alexa!</p>
                     <audio src="soundbank://soundlibrary/cartoon/amzn_sfx_boing_long_1x_01"/>
-                    <p>Está preparado?<break time="3s"/></p>
+                    <p>Está preparado?<break time="1s"/></p>
                     <p>Vamos lá!</p>
                     <p>Fale uma música</p>
-                    <emphasis level="strong">Aquela que combinamos, tá?</emphasis> 
+                    < amazon: effect name = "whispered" > Aquela que combinamos, tá ? < /amazon:effect><break time="1s"/ >
                 </speak>`,
         card: {
             title: 'Bem vindo',
@@ -22,7 +22,7 @@ app.onStart(() => {
 });
 
 app.intent('HelloIntent', 'Hello', () => {
-    return {text:'Entendi nada ha ha ha',end:false};
+    return {text:'Entendi nada ra ra ra',end:false};
 });
 
 app.intent('vai','vai', ()=>{
