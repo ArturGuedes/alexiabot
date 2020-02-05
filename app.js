@@ -8,6 +8,7 @@ app.onStart(() => {
     return {
         text: `<speak>
                     <audio src="soundbank://soundlibrary/ui/gameshow/amzn_ui_sfx_gameshow_intro_01"/>
+                    <p>Fala aí meu jovem!</p>
                     <p>Bem vindo ao cantando com alexa!</p>
                     <p>Está preparado?<break time="1s"/></p>
                     <p>Vamos lá!</p>
